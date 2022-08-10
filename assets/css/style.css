@@ -1,0 +1,326 @@
+/*
+Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883
+
+Schriften: Open Sans, Athene
+um Schriften lokal einzubinden schaue hier! @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+ */
+/* SC20"
+TEMPORARY FOLIO
+TEMPORARY FOLIO
+©
+DESIGNER & DEVELOPER
+.01
+RELEASE
+FIRST OF ALL, IT IS AMAZING HAVING YOU HERE, WELCOME! I'M A PERSON WHO'S COMPLETELY IN LOVE WITH DESIGN, I AM PASSIONATE ABOUT TECHNOLOGY AND INTERACTIVITY, THE TWO FIELDS WHICH I'D LOVE TO STAY MORE INVOLVED IN AND KEEP ABOUT. CONTINUE TO GROW AND IMPROVE EVERY DAY!
+PRINCIPLES & VALUES
+01.
+Integrity.
+Always working with accuracy and transparency.
+02.
+Understanding.
+Well-made website require effort and comprehension.
+03.
+Performance.
+Focus is the key, every minute is important.
+.02
+WORKS
+EVERY WEBSITE IS MEANINGFUL AND REQUIRE A LOT OF EFFORT TO REACH THE GOALS, REAGARDLESS OF WHICH GOALS YOU ARE LOOKING TO MEET, I CAN WORK WITH YOU TO REACH THEM. BELOW YOU CAN SEE SOME OF THE PROJECTS I'VE WORKED IN AND SEE MY SKILLS SET. I HOPE YOU ENJOY THEM:
+RODRIGO MARCONATTO
+KÄTHE KOLLWITZ
+VICTOR FOLIO 2019"
+BORED OF AUTHORITY
+.03
+CONTACT
+NOW THAT YOU ALREADY KNOW ME, IT IS TIME TO START TO BUILD SOMETHING AMAZING TOGETHER.
+Email
+Dribbble
+Behance
+Github
+
+
+ */
+
+/* Grundeinstellungen */
+@font-face {
+  font-family: Athene;
+  src: url(../fonts/Athene.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1440px;
+}
+/* ===================== HEADER ===================== */
+header {
+  background-color: #efe8d7;
+  text-align: center;
+}
+header article {
+  text-align: left;
+}
+h1,
+h2 {
+  font-family: "Athene";
+  font-size: 160px;
+  font-style: regular;
+  font-weight: 400;
+}
+header article p {
+  position: fixed;
+  font-family: "Open Sans", sans-serif;
+  color: #042a5a;
+  padding: 11px;
+  display: inline-block;
+}
+header article p:nth-of-type(1) {
+  margin-left: 165px;
+}
+header article p:nth-of-type(2) {
+  margin-left: 1133px;
+}
+/* <!-----Line 1--- --> */
+header span:nth-of-type(1) {
+  position: fixed;
+  border-bottom: 2px solid #042a5a;
+  width: 100%;
+  top: 50px;
+  left: 0;
+}
+/* header p:nth-of-type(3) {
+  /* position: fixed; */
+/* border-bottom: 2px solid #042a5a;
+  width: 196px;
+  top: 443px; */
+h1 {
+  color: #042a5a;
+  padding-top: 98px;
+  text-align: center;
+}
+/* <!-----Line--- --> */
+.line {
+  border-bottom: 2px solid #042a5a;
+  width: 1152px;
+  position: absolute;
+}
+.line2 {
+  font-size: 196px;
+  display: inline-block;
+}
+.line4 {
+  top: 328px;
+  left: 144px;
+}
+.line3 {
+  top: 557px;
+  left: 144px;
+}
+header img {
+  text-align: center;
+}
+.Designer {
+  font-weight: 400px;
+  font-size: 24px;
+  color: #042a5a;
+  padding-bottom: 151px;
+  padding-top: 35px;
+  text-shadow: 1px 5px 2px #042b5a42;
+  margin-left: -38px;
+}
+.fontfirst {
+  font-family: "Athene";
+  display: inline-block;
+}
+.fontsecond {
+  font-family: "Open Sans", sans-serif;
+  display: inline-block;
+}
+/* ===================== MAIN ===================== */
+main section:nth-of-type(1) {
+  background-color: #f4c4c4;
+  color: #282b29;
+}
+main section:nth-of-type(1) article:nth-of-type(1) {
+  font-family: "Open Sans";
+}
+.pageNumber01 {
+  padding: 100px 0 0 115px;
+  color: #282b29;
+}
+main section:nth-of-type(1) h2 {
+  padding-top: 50px;
+  word-wrap: break-word;
+  width: 515px;
+}
+.article {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin: 15px 95px 0px 810px;
+  width: 569px;
+  letter-spacing: -0.02em;
+}
+/* =====================  TABLE =====================  */
+.table {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  width: 598px;
+  margin: 122px 100px 320px 742px;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  padding: 5px;
+}
+tr:not(tr:first-of-type) {
+  border-top: 1px solid black;
+  height: 132px;
+}
+tr:last-of-type {
+  border-bottom: 1px solid black;
+}
+th {
+  padding-left: 50px;
+  /* display: inline-block; */
+  text-align: right;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+/* tr:not(tr:second-of-type) { */
+tr td:nth-of-type(2) {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 200%;
+}
+tr td:nth-of-type(3) {
+  text-align: right;
+  vertical-align: middle;
+  width: 102px;
+}
+.pageNumber02 {
+  padding: 100px 115px 0px 1304px;
+  color: #7d2222;
+}
+main section:nth-of-type(2) h2 {
+  color: #7d2222;
+  text-align: right;
+  word-wrap: break-word;
+  width: 515px;
+  margin: 50px 0px 0px 940px;
+}
+main section:nth-of-type(2) {
+  background-color: #deb873;
+  color: #282b29;
+}
+.article2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 200%;
+  margin: 15px 810px 190px 95px;
+  width: 569px;
+  letter-spacing: -0.02em;
+  color: #7d2222;
+}
+
+.StarHeadline {
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 140%;
+  color: #7d2222;
+}
+main section:first-of-type img {
+  width: 105px;
+  text-align: right;
+  margin: 100px 106px 106px 1227px;
+}
+.left {
+  margin-left: 95px;
+  display: inline-block;
+  padding-bottom: 15.62rem;
+  width: 35.81rem;
+  vertical-align: top;
+  position: relative;
+}
+.leftImg {
+  margin-left: -7rem;
+  display: inline-block;
+  width: 46.68rem;
+}
+.right {
+  margin: 15.6rem 6.6rem 0 0;
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 27.81rem;
+}
+.rightImg {
+  margin-top: 15.62rem;
+  margin-left: 7.5rem;
+  padding-bottom: 15.6rem;
+  display: inline-block;
+  width: 46.68rem;
+}
+/* ___________FOOTER_________ */
+footer {
+  background-color: #d2d2d2;
+  color: #388883;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 200%;
+}
+footer p {
+  padding: 100px 0 0 115px;
+}
+footer h2 {
+  padding-top: 50px;
+  word-wrap: break-word;
+  width: 700px;
+  font-size: 10rem;
+  font-family: "Athene";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 160px;
+  line-height: 125%;
+}
+footer article {
+  font-size: 1.5rem;
+  padding: 0.93rem 29.37rem 0 32.37rem;
+}
+footer ul {
+  text-align: right;
+  padding: 6.25rem 5.93rem 6.25rem 77.18rem;
+  list-style: none;
+  font-size: 1.5rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 200%;
+}
+footer a {
+  text-decoration: none;
+  color: #388883;
+}
+a:hover {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
